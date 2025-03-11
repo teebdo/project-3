@@ -1,6 +1,8 @@
 /* Place CSS styles here */
 
+@media (max-width: 768px){
 
+}
 body{
     font-family: "DM Serif Text", serif;
   font-weight: 400;
@@ -11,54 +13,27 @@ background-image: url(./images/scribbles.jpg);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-background-color: #00ffff;
-box-sizing:border-box
+background-color: #edb965;
+box-sizing:border-box;
+height:100%
 }
 .heading{
-    background-color: #00ffff;
+    background-color: #edb965;
 }
-.xboxlogo{
-    width: 500px;
+.hero{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
-.genres {
-    text-align: left;
-    list-style-position: inside;
-    background-color: #09ff00;
-}
-.howitworks{
-    background-color: #00ffff;
-}
-
-.consoles{
-    text-align: right;
-    list-style-position: inside;
-    background-color: #09ff00;
-}
-.pclogo{
-    width: 500px;
-}
-.foot{
-    background-color: #00ffff;
+.hero-content{
+    width: 90%;
+    height:480px;
+    margin:0 auto;
+    text-align: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("images/characterspng.png");
+background-repeat: no-repeat;
+background-position: center center;
 }
 
-.container{
-    display: flex; grid-template-columns: 250px 3fr; row-gap: 200px; justify-content: center;
 
-
-}
-.left{
-    width: 500px;
-    
-
-}
-.middle{
-    width: 500px;
-    
-}
-.right{
-    width: 500px;
-    
-}
-.FBGM{
-    display: flex;
-}
