@@ -1,0 +1,18 @@
+/* Place CSS styles here */
+body{
+    font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  background-color: #00ffff;
+
+}
+  
+.genres {
+    text-align: left;
+    list-style-position: inside;
+}
+
+.NEM{
+  text-align: left;
+}

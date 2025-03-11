@@ -1,0 +1,64 @@
+/* Place CSS styles here */
+
+
+body{
+    font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: #000000;
+background-image: url(./images/scribbles.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-color: #00ffff;
+box-sizing:border-box
+}
+.heading{
+    background-color: #00ffff;
+}
+.xboxlogo{
+    width: 500px;
+}
+.genres {
+    text-align: left;
+    list-style-position: inside;
+    background-color: #09ff00;
+}
+.howitworks{
+    background-color: #00ffff;
+}
+
+.consoles{
+    text-align: right;
+    list-style-position: inside;
+    background-color: #09ff00;
+}
+.pclogo{
+    width: 500px;
+}
+.foot{
+    background-color: #00ffff;
+}
+
+.container{
+    display: flex; grid-template-columns: 250px 3fr; row-gap: 200px; justify-content: center;
+
+
+}
+.left{
+    width: 500px;
+    
+
+}
+.middle{
+    width: 500px;
+    
+}
+.right{
+    width: 500px;
+    
+}
+.FBGM{
+    display: flex;
+}
