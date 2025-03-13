@@ -37,3 +37,17 @@ background-position: center center;
 }
 
 
+.text-1{
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    bottom: 10%;
+    left: 50%;
+}
+.button-1{
+    position: absolute;
+    top: 55%;
+    right: 20%;
+    bottom: 10%;
+    left: 50%;
+}
