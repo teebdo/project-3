@@ -3,17 +3,18 @@
 @media (max-width: 768px){
 
 }
+
+* {
+    box-sizing: border-box;
+}
+
 body{
     font-family: "DM Serif Text", serif;
   font-weight: 400;
   font-style: normal;
   text-align: center;
   color: #000000;
-background-image: url(./images/bottomite\ houses.webp);
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-background-color: #edb965;
+background-color: #60cce3;
 box-sizing:border-box;
 height:100%
 }
@@ -114,12 +115,67 @@ p {
 
 /* Content Section */
 .content-section {
-    padding: 50px 20px;
     background-color: #333;
     color: #fff;
     text-align: center;
     margin-top: -20px;
+    background-image: url(./images/backgroundbottom.jpg);
+    background-repeat: no-repeat;
+    background-size: 150%;
+
+   
+}
+.bottom{
+    display: flex;
+    margin-top: 100px;
+    padding-top: 800px;
+}
+.bottom img{
+    width: 350px;
 }
 .island{
-    padding: 100px;
+    margin-bottom: 100px;
+    width: 100%;
+}
+.patrock{
+z-index: 1000;
+width: 50%;
+}
+.bottomitehouses{
+z-index: 1000;
+
+}
+.squidhouse{
+z-index: 1000;
+}
+.spongehouse{
+z-index: 10;
+}
+.animate__animatedanimate__bounce{
+   width: 100%;
+   margin: 0 0.5rem;
+    display: inline-block;
+animation: rubberBand; 
+    animation-duration: 2s; 
+    animation-timing-function:cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation-iteration-count:infinite;
+   
+}
+.waves{
+    width: 100%;
+    height: 50%;
+}
+.allcharacters{
+    column-width: 1000%;
+    max-width: fit-content;
+}
+.animate__animatedanimate__swing{
+    width: 100%;
+   margin: 0 0.5rem;
+    display: inline-block;
+animation: swing; 
+    animation-duration: 2s; 
+    animation-timing-function:cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation-iteration-count:infinite;
+   
 }
