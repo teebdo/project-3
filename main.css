@@ -166,8 +166,7 @@ animation: rubberBand;
     height: 50%;
 }
 .allcharacters{
-    column-width: 1000%;
-    max-width: fit-content;
+  
 }
 .animate__animatedanimate__swing{
     width: 100%;
@@ -178,4 +177,13 @@ animation: swing;
     animation-timing-function:cubic-bezier(0.175, 0.885, 0.32, 1.275);
     animation-iteration-count:infinite;
    
+}
+.animate__animatedanimate__HB{
+    width: 100%;
+    margin: 0 0.5rem;
+     display: inline-block;
+ animation: heartBeat; 
+     animation-duration: 2s; 
+     animation-timing-function:cubic-bezier(0.175, 0.885, 0.32, 1.275);
+     animation-iteration-count:infinite;
 }
