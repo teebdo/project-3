@@ -91,6 +91,7 @@ p {
     align-items: center;
     text-align: center;
     overflow: hidden;
+    font: bold;
 }
 
 .parallax-container[data-parallax="scroll"] {
